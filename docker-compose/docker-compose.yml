@@ -34,9 +34,9 @@ services:
     links:
       - db:database
     environment:
-      ETHEREUM_JSONRPC_HTTP_URL: https://rpc.testnet.compliq.io:9945/
-      ETHEREUM_JSONRPC_TRACE_URL: https://rpc.testnet.compliq.io:9945/
-      ETHEREUM_JSONRPC_WS_URL: wss://rpc.testnet.compliq.io:9945/
+      ETHEREUM_JSONRPC_HTTP_URL: http://84.247.186.29:9944/
+      ETHEREUM_JSONRPC_TRACE_URL: http://84.247.186.29:9944/
+      ETHEREUM_JSONRPC_WS_URL: ws://84.247.186.29:9944/
       CHAIN_ID: "1943"
 
   nft_media_handler:
